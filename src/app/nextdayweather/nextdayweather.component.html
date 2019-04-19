@@ -1,0 +1,11 @@
+<div class="seven-day" style="margin-left:10px;margin-right:10px">
+  <div class="seven-day-fc" style="margin-left:10px;margin-right:10px">
+    <div class="date">{{forecast.date| date:'EEEE'}}</div>
+    <div><img [src]='forecast.day.condition.icon'></div> 
+    <div class="seven-day-temp">
+      <div class="temp-high">{{forecast.day.maxtemp_c}}°</div>
+      <div class="temp-low">{{forecast.day.mintemp_c}}°</div>
+    </div>
+    <div class="pcount">{{forecast.day.condition.text}}</div>
+  </div>
+  </div>

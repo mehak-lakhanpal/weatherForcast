@@ -1,0 +1,17 @@
+<div  class="weather-forecast" role="main" >
+    <div class="location">{{loc.name}},{{loc.country}}</div> 
+   <div class="date">{{tdate}}</div>
+  <div class="desc">{{current.condition.text}}</div>
+   <div class="current">
+     <div class="visual">
+       <div><img [src]='icon'></div> 
+        <div class="temp">{{current.temp_c}}</div>
+       <div class="scale">°C</div>
+     </div>
+    <div class="description">
+       <div class="humidity" >{{current.humidity}}</div>
+       <div class="wind">{{current.wind_mph+' mph SW'}} </div>
+       <div class="pollen">{{sunset}}</div> 
+     </div>
+   </div>
+</div> 

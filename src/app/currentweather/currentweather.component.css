@@ -1,0 +1,105 @@
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    background-image: url("http://www.stockazoo.com/uploads/3/5/4/5/3545172/sky_021.jpg");
+  }
+  
+  body {
+   
+    font-family: Roboto, Arial;
+    font-size: 0.8em;
+    color: #666;
+    overflow-y: hidden;
+   
+  }
+  
+  .icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+  }
+  
+  
+  .weather-forecast {
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    display: inline-block;
+  }
+  
+  /* Header row */
+  
+  .location {
+    font-size: 3em;
+    color: #444;
+  }
+  
+  /* Current Weather Summary */
+  .current {
+    overflow: auto;
+    width:100%;
+    margin-bottom: 15px;
+  }
+  
+  .current .visual {
+    width: 50%;
+    float: left;
+  }
+  
+  .current .description {
+    
+    position: absolute;
+  right: 200px;
+  width: 150px;
+  }
+  
+  /* Current Weather - Visual */
+  
+  .visual .icon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .temp {
+    font-size: 2.5em;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .scale {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 6px;
+    color: #888;
+  }
+  
+  /* General Labels */
+  
+  .wind:before {
+    content: "Wind: ";
+    color:black;
+    font-weight: bold;
+  }
+   
+  .precip:before {
+    content: "Precipitation: ";
+    color:black;
+  }
+
+  .humidity:before {
+    content: "Humidity: ";
+    color:black;
+    font-weight: bold;
+  }
+  
+  .pollen:before {
+    content: "Sunset: ";
+    color:black;
+    font-weight: bold;
+  }
+  
+
+  
+  
