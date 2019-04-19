@@ -31,7 +31,7 @@
   
   .seven-day-fc .seven-day-temp {
     text-align: center;
-    width: 30%;
+    width: 50%;
   }
   
   .seven-day-fc .temp-high {
@@ -57,5 +57,16 @@
     display: inline-block;
     margin-top: 6px;
     color: #888;
+  }
+  .pcount:before {
+    content: "Status: ";
+    color:black;
+  }
+  .pcount{
+    font-weight:normal;
+    color:grey;
+    position: absolute;
+  right: 50px;
+  width: 100px;
   }
   
